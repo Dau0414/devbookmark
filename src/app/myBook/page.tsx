@@ -2,7 +2,6 @@ import Heading from '@/src/components/heading'
 import PostList from '@/src/features/myBook/components/post-list'
 import { getSession } from '@/src/lib/get-session'
 import { signIn } from '@/src/path';
-import { User } from '@prisma/client';
 import { redirect } from 'next/navigation';
 import { Bookmark } from "@/generated/prisma/client"
 import { SearchParams } from '@/src/features/myBook/Types/SearchInput';
